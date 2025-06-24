@@ -8,7 +8,7 @@ Companion code for "Bayesian Sample Size Determination in a Partially Randomized
 - [PowerFunction_Approx.R](PowerFunction_Approx.R): Function to calculate the power in a PRPP-SMART using approximate closed-form posterior distributions. Called in [ComputePower_Approx.R](ComputePower_Approx.R).
 - [ComputePower_Approx.R](ComputePower_Approx.R): Code to implement [PowerFunction_Approx.R](PowerFunction_Approx.R) to determine the required sample size for a PRPP-SMART. This code implements parallel processing of the sample size calculation.
 - [Artman_SampleSize_calc.R](Artman_SampleSize_calc.R): Example R code to calculate $n_{min}$ in the PRPP-SMART sample size calculation using the method outlined in Artman et al. (2022) Bayesian set of best dynamic treatment regimes: Construction and sample size calculation for SMARTs with binary outcomes, [https://doi.org/10.1111/insr.12376](https://doi.org/10.1002/sim.9323).
-- [LogOR_Function.R](nLogOR_Function.R): Function to calculate the log-OR between each indfference DTR and the best indifference DTR given the sample size input parameters.  
+- [LogOR_Function.R](LogOR_Function.R): Function to calculate the log-OR between each indfference DTR and the best indifference DTR given the sample size input parameters.  
 - [nsim_toget_500.R](nsim_toget_500.R): Functions used to determine the number of simulations needed to run per scenario/sub-scenario in order to achieve 500 total simulations. Used for Empirical power calculations to ensure positivity assumption of BJSM model is met. 
 
 
