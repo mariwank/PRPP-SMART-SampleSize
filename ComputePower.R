@@ -1,7 +1,7 @@
 library(R2jags)
 library(coda)
 
-source("DataGeneration_BJSM.R") # data generation function
+source("PRPPSMART_DataGen.R") # data generation function
 source("LogOR_Function.R")
 
 I <- 100 # number of monte carlo integrations to perform for the data
