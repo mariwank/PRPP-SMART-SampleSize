@@ -5,7 +5,7 @@ p_load(R2jags, coda, tidyverse, utils)
 
 
 # Load in functions
-source("PRPPSMART_DataGen.R") # data generation function
+source("DataGeneration_BJSM.R") # data generation function
 source("LogOR_Function.R") # compute Log-OR differences for indifference DTRs
 
 ###################### Input parameter #######################
