@@ -4,7 +4,7 @@ library(coda)
 source("PRPPSMART_DataGen.R") # data generation function
 source("LogOR_Function.R")
 
-I <- 100 # number of monte carlo integrations to perform for the data
+I <- 100 # number of monte carlo integrations to perform for the data (100,500,1000)
 scenario <- 1
 subscenario <- "Link1" # Link1 or LinkNot1
 seed_spec <- 1 # seed for reproducibility 
