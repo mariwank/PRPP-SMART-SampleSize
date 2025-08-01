@@ -9,6 +9,7 @@
 # alpha_type1: probability of excluding true best EDTR from the set of best  
 
 
+# Code adapted from Artman et al 2022. 
 
 powerFunction <- function(sample_size,
                           Treatment_Preference_stage1_prob,
