@@ -1,3 +1,6 @@
+# Code adapted from Artman et al 2022. 
+
+
 LogOR <- function(response_prob,
                   stage_one_trt_one_response_prob,
                   stage_one_trt_two_response_prob) {
