@@ -1,3 +1,5 @@
+# Code adapted from Artman et al 2022. 
+
 library(R2jags)
 library(coda)
 
