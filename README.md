@@ -1,5 +1,5 @@
 # PRPP-SMART-SampleSize
-Companion code for "Bayesian Sample Size Determination in a Partially Randomized Patient Preference, Sequential, Multiple-Assignment, Randomized Trial with Binary Outcomes”. Where applicable R code has been adapted from Artman et al. (2022) Bayesian set of best dynamic treatment regimes: Construction and sample size calculation for SMARTs with binary outcomes, [https://doi.org/10.1111/insr.12376](https://doi.org/10.1002/sim.9323).
+Companion code for "Bayesian Sample Size Determination in a Partially Randomized Patient Preference, Sequential, Multiple-Assignment, Randomized Trial with Binary Outcomes”. Where applicable R code has been adapted from Artman et al. (2022): Bayesian set of best dynamic treatment regimes: Construction and sample size calculation for SMARTs with binary outcomes, [https://doi.org/10.1111/insr.12376](https://doi.org/10.1002/sim.9323).
 
 ## File Descriptions
 - [PRPPSMART_DataGen.R](PRPPSMART_DataGen.R): Function used to create exemplarly PRPP-SMART data with binary end-of-stage outcomes to be used in the PRPP-SMART sample size calculation.
